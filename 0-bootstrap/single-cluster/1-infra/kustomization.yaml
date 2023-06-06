@@ -5,6 +5,9 @@ resources:
 - argocd/namespace-sealed-secrets.yaml
 - argocd/serviceaccounts-b2bi-prod.yaml
 - argocd/sfg-b2bi-clusterwide.yaml
+- argocd/namespace-sccm.yaml
+- argocd/serviceaccounts-sccm.yaml
+- argocd/sccm-clusterwide.yaml
 patches:
 - target:
     group: argoproj.io
